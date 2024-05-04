@@ -1,0 +1,16 @@
+{
+    "firstName": "Simon",
+    "lastName": "St-Pierre",
+    "handle": "CovertDuck",
+    "workPlace": "Fujitsu Consulting",
+    "workRole": "Senior Software Developer",
+    "twitterHandle": "CovertDuck",
+    "githubHandle": "CovertDuck",
+    "linkedinHandle": "simon-stpierre",
+    "website": "https://covertduck.io",
+    "email": "dev@covertduck.io",
+    "npxCard": "covertduck",
+    "blurb": "I am currently knee-deep in the world of AI and ML, and seeking to help more FOSS projects whenever I can. I also do tutoring for students in programming, computer science and software engineering.",
+    "blurbKeywords": ["AI", "ML", "FOSS", "tutoring"],
+    "portfolio": "https://github.com/CovertDuck?tab=repositories"
+}

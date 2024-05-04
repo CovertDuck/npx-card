@@ -1,0 +1,45 @@
+{
+  "name": "covertduck",
+  "version": "2.0.0",
+  "type": "module",
+  "description": "Terminal business card",
+  "author": "Simon St-Pierre <dev@covertduck.io> (https://covertduck.io/)",
+  "main": "dist/card.js",
+  "bin": "dist/card.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CovertDuck/npx-card.git"
+  },
+  "scripts": {
+    "clean": "rm -rf dist",
+    "build": "pnpm run clean && tsc && cp src/data.json dist/data.json",
+    "prepublish": "pnpm run build",
+    "start": "node dist/card.js"
+  },
+  "dependencies": {
+    "boxen": "^7.1.1",
+    "clear": "^0.1.0",
+    "inquirer": "^9.2.20",
+    "open": "^10.1.0"
+  },
+  "devDependencies": {
+    "@types/clear": "^0.1.4",
+    "@types/inquirer": "^9.0.7",
+    "nodemon": "^3.1.0",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.0.0"
+  },
+  "keywords": [
+    "npx",
+    "card",
+    "terminal",
+    "business",
+    "business card",
+    "covertduck"
+  ],
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/CovertDuck/npx-card/issues"
+  },
+  "homepage": "https://github.com/CovertDuck/npx-card#readme"
+}
