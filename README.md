@@ -1,8 +1,8 @@
 # NPX Card
 
-## About
+**A terminal-based NPX business card. It's pretty neat. :)**
 
-My terminal business card.
+![NPX Card Demonstration](https://github.com/CovertDuck/vhs-showcase/blob/master/tapes/npx-card.gif)
 
 ## Usage
 
