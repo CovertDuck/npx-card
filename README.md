@@ -17,7 +17,7 @@ npx covertduck
 Clone the repository:
 
 ```sh
-git clone https://github/com/covertduck/npx-card.git
+git clone https://github.com/CovertDuck/npx-card.git
 ```
 
 To install dependencies:
