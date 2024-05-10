@@ -1,6 +1,7 @@
 # NPX Card
 
-**A terminal-based NPX business card. It's pretty neat. :)**
+**A terminal-based NPX business card.**  
+**I think it's pretty neat. :)**
 
 ![NPX Card Demonstration](https://github.com/CovertDuck/vhs-showcase/blob/master/tapes/npx-card.gif)
 
@@ -23,13 +24,13 @@ git clone https://github.com/CovertDuck/npx-card.git
 To install dependencies:
 
 ```bash
-pnpm install
+bun install
 ```
 
 To run:
 
 ```bash
-pnpm run build && pnpm run start
+bun run build && bun run start
 ```
 
 ## Inspirations

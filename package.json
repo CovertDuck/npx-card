@@ -12,8 +12,8 @@
   },
   "scripts": {
     "clean": "rm -rf dist",
-    "build": "pnpm run clean && tsc && cp src/data.json dist/data.json",
-    "prepublish": "pnpm run build",
+    "build": "bun run clean && tsc && cp src/data.json dist/data.json",
+    "prepublish": "bun run build",
     "start": "node dist/card.js"
   },
   "dependencies": {
